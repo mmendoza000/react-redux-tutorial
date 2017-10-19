@@ -1,0 +1,38 @@
+body{
+	background: #b18e9a !important;
+	font-size: 20px!important;
+}
+.todoComponent input{ font-size:20px!important; }
+.todoComponent{
+	margin-top: 25px;
+	background-color: #2196F3;
+	padding: 10px;
+	box-shadow: 1px 1px 6px #ccc;
+}
+.todoComponent ul{
+	margin: 0px;
+	padding: 0px;
+	min-height: 150px;
+	overflow: auto;
+}
+.todoComponent ul li{
+	background-color: #E0F7FA;
+	list-style: none;
+    margin: 0px;
+    padding: 4px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #757575;
+}
+
+.todoComponent ul li.completed{
+	background-color: #8BC34A;
+	color: #424242;
+}
+
+.centeredComponent{
+	background-color: #c5dbec;
+	padding: 10px;
+	width: 40%;
+    margin: auto;
+    margin-top: 25px;
+}
